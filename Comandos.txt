@@ -1,23 +1,24 @@
-git config --global user.name ìNombreî
-git config --global user.email ìEmailî
+Mis comandos Git
+git config --global user.name ‚ÄúNombre‚Äù
+git config --global user.email ‚ÄúEmail‚Äù
 git config --global color.ui true
 git config --global --list
 
 git init
 git status
-git add ìfileî
+git add ‚Äúfile‚Äù
 git add -A (agregar todos)
-git commit -m ìcomentarioî
+git commit -m ‚Äúcomentario‚Äù
 git commit --amend (Reemplaza el commit anterior)
 git log (lista de commits)
 git log --oneline (listar los commit acortados)
 git log --oneline --graph
 git diff 'llave del commit' (Permite ver la diferencia de los commits)
 git checkout "codigo del commit" (viajamos en el tiempo en los comits)
-git checkout master (volver al ˙ltimo commit de la rama)
-git reset --soft "codigo del commit" (no toca el cÛdigo)
+git checkout master (volver al √∫ltimo commit de la rama)
+git reset --soft "codigo del commit" (no toca el c√≥digo)
 git reset --mixed "codigo del commit"
-git reset --hard "codigo del commit" (borra el cÛdigo)
+git reset --hard "codigo del commit" (borra el c√≥digo)
 git log > commits.txt
 git help "comando"
 git branch
@@ -29,7 +30,7 @@ git branch -D (Borrar rama)
 git checkout -b "rama" (mover y crear rama al mismo tiempo)
 git clone "url github"
 git remote add origin "url repositorio github"
-git remote -v (ver si est· conectado con otro repositorio)
+git remote -v (ver si est√° conectado con otro repositorio)
 git remote remove origin (quitar lo anterior)
 git push origin master
 
